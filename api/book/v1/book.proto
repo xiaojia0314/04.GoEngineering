@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package book.v1;
 
-option go_package = "go-demo-project/api/book/v1;v1";
+option go_package = "4.GoEngineering/api/book/v1;v1";
 
 service BookService {
   rpc FindBook(FindBookRequest) returns (BookReply) {}
